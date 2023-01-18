@@ -1,15 +1,7 @@
 /** @format */
 
 const initialState = {
-  isAuth: localStorage.getItem("access_token") ? true : false,
-  loading: false,
-  error: null,
-  jwt: localStorage.getItem("access_token")
-    ? localStorage.getItem("access_token")
-    : null,
-  sidebar: false,
-  notification: false,
-  dimension: [],
+   
 };
 
 // changed to arrow function
